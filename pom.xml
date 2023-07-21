@@ -50,6 +50,7 @@
         <ktor.version>2.3.2</ktor.version>
         <jackson.version>2.15.2</jackson.version>
         <swt.version>3.124.0</swt.version>
+        <junit.version>5.10.0-M1</junit.version>
 
         <!-- Plugin Versions -->
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
@@ -170,8 +171,14 @@
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.10.0-M1</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
