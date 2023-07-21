@@ -65,6 +65,10 @@
         <flatten-maven-plugin.version>1.5.0</flatten-maven-plugin.version>
         <spotless-maven-plugin.version>2.37.0</spotless-maven-plugin.version>
         <versions-maven-plugin.version>2.16.0</versions-maven-plugin.version>
+
+        <!-- SonarCloud -->
+        <sonar.organization>dfuchss</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencyManagement>
         <dependencies>
