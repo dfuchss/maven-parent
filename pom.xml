@@ -45,9 +45,9 @@
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
 
         <!-- Dependency Versions -->
-        <slf4j.version>2.0.7</slf4j.version>
+        <slf4j.version>2.0.9</slf4j.version>
         <kotlin.version>1.9.10</kotlin.version>
-        <ktor.version>2.3.3</ktor.version>
+        <ktor.version>2.3.4</ktor.version>
         <jackson.version>2.15.2</jackson.version>
         <swt.version>3.124.0</swt.version>
         <junit.version>5.10.0</junit.version>
@@ -139,7 +139,7 @@
             <dependency>
                 <groupId>org.jetbrains.kotlinx</groupId>
                 <artifactId>kotlinx-datetime-jvm</artifactId>
-                <version>0.4.0</version>
+                <version>0.4.1</version>
             </dependency>
             <dependency>
                 <groupId>org.reflections</groupId>
