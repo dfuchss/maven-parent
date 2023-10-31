@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.fuchss</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>0.13.0-SNAPSHOT</version>
+    <version>0.21.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Maven Parent @ dfuchss</name>
     <description>This is the parent the most of my projects.</description>
@@ -37,18 +37,18 @@
     </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
 
         <kotlin.code.style>official</kotlin.code.style>
-        <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.jvmTarget>21</kotlin.compiler.jvmTarget>
 
         <!-- Dependency Versions -->
         <slf4j.version>2.0.9</slf4j.version>
         <kotlin.version>1.9.20</kotlin.version>
         <ktor.version>2.3.5</ktor.version>
-        <jackson.version>2.16.0-rc1</jackson.version>
+        <jackson.version>2.15.3</jackson.version>
         <swt.version>3.124.0</swt.version>
         <junit.version>5.10.0</junit.version>
 
@@ -317,7 +317,7 @@
                                 <groupId>*</groupId>
                                 <ignoreVersion>
                                     <type>regex</type>
-                                    <version>.+-(alpha|Alpha|beta|Beta|RC).*</version>
+                                    <version>.+-(alpha|Alpha|beta|Beta|RC|rc).*</version>
                                 </ignoreVersion>
                             </rule>
                         </ruleSet>
@@ -361,11 +361,6 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <extensions>true</extensions>
-                    </plugin>
-                    <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <executions>
@@ -384,6 +379,11 @@
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>flatten-maven-plugin</artifactId>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <extensions>true</extensions>
                     </plugin>
                 </plugins>
             </build>
