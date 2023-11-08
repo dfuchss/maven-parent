@@ -47,7 +47,7 @@
         <!-- Dependency Versions -->
         <slf4j.version>2.0.9</slf4j.version>
         <kotlin.version>1.9.20</kotlin.version>
-        <ktor.version>2.3.5</ktor.version>
+        <ktor.version>2.3.6</ktor.version>
         <jackson.version>2.15.3</jackson.version>
         <swt.version>3.124.0</swt.version>
         <junit.version>5.10.1</junit.version>
