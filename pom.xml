@@ -47,7 +47,7 @@
         <!-- Dependency Versions -->
         <slf4j.version>2.0.13</slf4j.version>
         <kotlin.version>2.0.0</kotlin.version>
-        <ktor.version>2.3.11</ktor.version>
+        <ktor.version>2.3.12</ktor.version>
         <jackson.version>2.17.1</jackson.version>
         <swt.version>3.124.0</swt.version>
         <junit.version>5.11.0-M2</junit.version>
@@ -62,7 +62,7 @@
         <maven-release-plugin.version>3.1.0</maven-release-plugin.version>
         <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-        <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
+        <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
 
         <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
         <spotless-maven-plugin.version>2.44.0.BETA1</spotless-maven-plugin.version>
