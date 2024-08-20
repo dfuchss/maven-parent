@@ -334,6 +334,10 @@
                                 <goal>compile</goal>
                             </goals>
                             <phase>compile</phase>
+                            <configuration>
+                                <jvmTarget>${java.version}</jvmTarget>
+                                <javaParameters>true</javaParameters>
+                            </configuration>
                         </execution>
                     </executions>
                 </plugin>
