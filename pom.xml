@@ -46,7 +46,7 @@
 
         <!-- Dependency Versions -->
         <slf4j.version>2.0.16</slf4j.version>
-        <kotlin.version>2.0.10</kotlin.version>
+        <kotlin.version>2.0.20</kotlin.version>
         <ktor.version>2.3.12</ktor.version>
         <jackson.version>2.17.2</jackson.version>
         <swt.version>3.124.0</swt.version>
@@ -65,7 +65,7 @@
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
 
         <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
-        <spotless-maven-plugin.version>2.44.0.BETA1</spotless-maven-plugin.version>
+        <spotless-maven-plugin.version>2.44.0.BETA2</spotless-maven-plugin.version>
         <versions-maven-plugin.version>2.17.1</versions-maven-plugin.version>
 
         <!-- SonarCloud -->
@@ -139,7 +139,7 @@
             <dependency>
                 <groupId>org.jetbrains.kotlinx</groupId>
                 <artifactId>kotlinx-datetime-jvm</artifactId>
-                <version>0.6.0</version>
+                <version>0.6.1</version>
             </dependency>
             <dependency>
                 <groupId>org.reflections</groupId>
