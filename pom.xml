@@ -133,11 +133,6 @@
             </dependency>
             <dependency>
                 <groupId>org.jetbrains.kotlinx</groupId>
-                <artifactId>kotlinx-coroutines-core</artifactId>
-                <version>1.9.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jetbrains.kotlinx</groupId>
                 <artifactId>kotlinx-datetime-jvm</artifactId>
                 <version>0.6.1</version>
             </dependency>
