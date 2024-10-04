@@ -50,7 +50,7 @@
         <ktor.version>2.3.12</ktor.version>
         <jackson.version>2.18.0</jackson.version>
         <swt.version>3.124.0</swt.version>
-        <junit.version>5.11.1</junit.version>
+        <junit.version>5.11.2</junit.version>
 
         <!-- Plugin Versions -->
         <maven-surefire-plugin.version>3.5.0</maven-surefire-plugin.version>
