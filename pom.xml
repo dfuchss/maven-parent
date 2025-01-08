@@ -64,7 +64,7 @@
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
 
         <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
-        <spotless-maven-plugin.version>2.44.0.BETA4</spotless-maven-plugin.version>
+        <spotless-maven-plugin.version>2.44.1</spotless-maven-plugin.version>
         <versions-maven-plugin.version>2.18.0</versions-maven-plugin.version>
 
         <!-- SonarCloud -->
