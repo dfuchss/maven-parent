@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.fuchss</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>0.21.39</version>
+    <version>0.21.40-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Maven Parent @ dfuchss</name>
     <description>This is the parent the most of my projects.</description>
