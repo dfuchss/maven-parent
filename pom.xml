@@ -372,6 +372,7 @@
                             <publishingServerId>central</publishingServerId>
                             <autoPublish>true</autoPublish>
                             <waitUntil>published</waitUntil>
+                            <deploymentName>maven-parent</deploymentName>
                         </configuration>
                     </plugin>
                 </plugins>
