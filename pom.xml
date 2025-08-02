@@ -63,14 +63,9 @@
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
 
-        <flatten-maven-plugin.version>1.7.1</flatten-maven-plugin.version>
+        <flatten-maven-plugin.version>1.7.2</flatten-maven-plugin.version>
         <spotless-maven-plugin.version>2.46.1</spotless-maven-plugin.version>
         <versions-maven-plugin.version>2.18.0</versions-maven-plugin.version>
-
-        <!-- SonarCloud -->
-        <sonar.organization>dfuchss</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>dfuchss_maven-parent</sonar.projectKey>
     </properties>
     <dependencyManagement>
         <dependencies>
