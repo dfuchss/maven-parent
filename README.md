@@ -22,8 +22,8 @@ For snapshot releases, make sure to add the following repository to your pom.xml
 		<snapshots>
 			<enabled>true</enabled>
 		</snapshots>
-		<id>mavenSnapshot</id>
-		<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		<id>maven_snapshot</id>
+		<url>https://central.sonatype.com/repository/maven-snapshots/</url>
 	</repository>
 </repositories>
 ```
