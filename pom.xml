@@ -54,7 +54,7 @@
         <!-- Plugin Versions -->
         <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
 
-        <sonatype-publish.version>0.9.0</sonatype-publish.version>
+        <sonatype-publish.version>0.10.0</sonatype-publish.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
