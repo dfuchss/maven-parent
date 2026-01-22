@@ -170,6 +170,7 @@
                     <artifactId>spotless-maven-plugin</artifactId>
                     <version>${spotless-maven-plugin.version}</version>
                     <configuration>
+                        <lineEndings>UNIX</lineEndings>
                         <pom>
                             <sortPom>
                                 <encoding>UTF-8</encoding>
