@@ -46,7 +46,7 @@
 
         <!-- Dependency Versions -->
         <slf4j.version>2.0.17</slf4j.version>
-        <kotlin.version>2.3.0</kotlin.version>
+        <kotlin.version>2.3.10</kotlin.version>
         <jackson.version>2.21.0</jackson.version>
         <swt.version>3.124.0</swt.version>
         <junit.version>6.1.0-M1</junit.version>
