@@ -22,7 +22,7 @@ jobs:
     with:
       deploy: true
     secrets:
-      CENTRAL_USER: ${{secrets.OSSRH_USER}}
-      CENTRAL_TOKEN: ${{secrets.OSSRH_TOKEN}}
+      CENTRAL_USER: ${{secrets.CENTRAL_USER}}
+      CENTRAL_TOKEN: ${{secrets.CENTRAL_PASS}}
       GPG_KEY: ${{secrets.GPG_KEY}}
 
