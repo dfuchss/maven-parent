@@ -8,6 +8,11 @@
       "description": "Automerge non-major updates",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "description": "flatten-maven-plugin 1.8.0 fails with an NPE in CiModelInterpolator (resolveCiFriendliesOnly), which breaks the deploy",
+      "matchPackageNames": ["org.codehaus.mojo:flatten-maven-plugin"],
+      "allowedVersions": "!/^1\\.8\\.0$/"
     }
   ]
 }
